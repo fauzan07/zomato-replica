@@ -95,7 +95,12 @@ a.href_login{
 .offset-sm-1 {
     margin-left: -5.666667%;
 }
-
+@media only screen and (max-width: 600px) {
+    .offset-sm-1 {
+        margin-left: -0.666667%;
+    }
+}
+   
 /*--------section categories start---------*/
 
 /*--------section localities start---------*/
