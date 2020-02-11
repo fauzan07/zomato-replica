@@ -21,21 +21,21 @@
                 <div class="col">
                     <div class="get_the_app float-left mt-2">
                         <img src="images/get-the-app-plain.svg" width="30" alt="Responsive image">
-                        <a href="/" class="nav_item_a pr-3">Get the app</a>
+                        <a href="/" id="nav_item_a" class="nav_item_a pr-3">Get the app</a>
                     </div>
                     <div class="d-flex float-right mt-2">
                         <ul class="list-inline">
                             <li class="list-inline-item">
                                 <img src="images/order-online.svg" width="25" alt="Responsive image">
-                                <a href="/" class="nav_item_1 pr-3">Order Food</a>
+                                <a href="/" id="nav_item_1" class="nav_item_b pr-3">Order Food</a>
                             </li>
                             <li class="list-inline-item">
                                 <img src="images/book-a-table.svg" width="25" alt="Responsive image">
-                                <a href="/" class="nav_item_2 pr-3">Book a Table</a>
+                                <a href="/" id="nav_item_2" class="nav_item_c pr-3">Book a Table</a>
                             </li>
                             <li class="list-inline-item">
                                 <img src="images/gold.svg" width="20" alt="Responsive image">
-                                <a href="/" class="nav_item_3 pr-4">Zomato Gold</a>
+                                <a href="/" id="nav_item_3" class="nav_item_d pr-4">Zomato Gold</a>
                             </li>
                         </ul>
                     </div>
@@ -72,7 +72,7 @@
                                     </div>
                                     <div class="col-md-8">
                                         <input type="text" class="form-control mb-2" id="search-rest"
-                                            placeholder="search for restaurants or cuisines...">
+                                            placeholder="Search for restaurants or cuisines...">
                                     </div>
                                     <div class="col-md-2 col-lg-2">
                                         <a href="#" class="btn-search btn btn-danger mb-2 btn-block">Search</a>
@@ -193,11 +193,10 @@
                                 <form>
                                     <div class="form-group">
                                         <div class="input-group mb-3">
-                                            <input type="text" class="form-control search-del"
-                                                placeholder="Type delivery location here"
-                                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                                            <input type="text" class="search-del form-control"
+                                                placeholder="Type delivery location here">
                                             <div class="input-group-append">
-                                                <button class="input-group-text detect-btn" type="button"
+                                                <button class="detect-btn input-group-text" type="button"
                                                     id="button-addon2">Detect</button>
                                             </div>
                                         </div>
@@ -222,7 +221,7 @@
             <div class="row">
                 <div class="col-md-10">
                     <h2 id="cat-title">Quick Searches</h2>
-                    <p class="cat-subtitle">Discover restaurants by type of meal</p>
+                    <p id="cat-subtitle">Discover restaurants by type of meal</p>
                 </div>
             </div>
             <div class="row cat_list">
@@ -273,7 +272,7 @@
             <div class="row">
                 <div class="col-md-10">
                     <h2 id="loc-title">Popular localities in and around Mumbai</h2>
-                    <p class="loc-subtitle">Explore restaurants, bars, and cafés by locality</p>
+                    <p id="loc-subtitle">Explore restaurants, bars, and cafés by locality</p>
                 </div>
             </div>
             <div class="row localities_bg pt-3">
