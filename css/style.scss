@@ -62,7 +62,7 @@ a.href_login{
 /*--------section banner start---------*/
 
 /*--------section widget_collections_section start---------*/
-.search-del {
+.search-del1 {
     display: block;
     width: 100%;
     height: calc(1.5em + .75rem + 2px);
@@ -96,12 +96,12 @@ a.href_login{
     border-radius: .25rem;
 }
 
-.input-group>.custom-select:not(:last-child), .input-group>.search-del:not(:last-child) {
+.input-group>.custom-select:not(:last-child), .input-group>.search-del1:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 
-.input-group>.custom-file, .input-group>.custom-select, .input-group>.search-del, .input-group>.search-del-plaintext {
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.search-del1, .input-group>.search-del1-plaintext {
     position: relative;
     -ms-flex: 1 1 0%;
     flex: 1 1 0%;
