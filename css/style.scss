@@ -62,6 +62,57 @@ a.href_login{
 /*--------section banner start---------*/
 
 /*--------section widget_collections_section start---------*/
+.search-del {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.detect-btn{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.input-group>.custom-select:not(:last-child), .input-group>.search-del:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.search-del, .input-group>.search-del-plaintext {
+    position: relative;
+    -ms-flex: 1 1 0%;
+    flex: 1 1 0%;
+    min-width: 0;
+    margin-bottom: 0;
+}
+
+.input-group>.input-group-append>.detect-btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
 .order-btn{
     padding: 5px 85px;
     background-color: #5BA829;
@@ -89,6 +140,18 @@ a.href_login{
 
 /*--------section categories start---------*/
 
+.category-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.category-list {
+    padding-left: 0;
+    list-style: none;
+}
 .cat_list{
     background-color: $container_bg_color;
 }

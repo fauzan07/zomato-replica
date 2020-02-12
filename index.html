@@ -75,7 +75,7 @@
                                             placeholder="Search for restaurants or cuisines...">
                                     </div>
                                     <div class="col-md-2 col-lg-2">
-                                        <a href="#" id="btn-search" class="btn btn-danger mb-2 btn-block">Search</a>
+                                        <a href="#" id="search-btn" class="btn btn-danger mb-2 btn-block">Search</a>
                                     </div>
                                 </div>
                             </form>
@@ -193,10 +193,10 @@
                                 <form>
                                     <div class="form-group">
                                         <div class="input-group mb-3">
-                                            <input class="search-del form-control" type="text" 
+                                            <input class="search-del" type="text" 
                                                 placeholder="Type delivery location here"></input>
                                             <div class="input-group-append">
-                                                <button class="detect-btn input-group-text" type="button"
+                                                <button class="detect-btn" type="button"
                                                     id="button-addon2">Detect</button>
                                             </div>
                                         </div>
@@ -226,7 +226,8 @@
             </div>
             <div class="row cat_list">
                 <div class="col-lg-12">
-                    <ul class="category-list row list-unstyled py-4">
+                    <div class="py-4">
+                    <ul class="category-list">
                         <li class="col-md-2  col-3 text-center">
                             <div class="text-center"><img src="images/delivery.png" width="50" alt=""></div>
                             <small>Delivery</small>
@@ -260,6 +261,7 @@
                             <small>Desserts & Bakes</small>
                         </li>
                     </ul>
+                </div>
                 </div>
             </div>
         </div>
