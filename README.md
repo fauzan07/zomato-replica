@@ -1,4 +1,6 @@
-﻿﻿## Assignment: Zomato Landing Page
+https://fauzan07.github.io/zomato-replica/.
+
+## Assignment: Zomato Landing Page
 
 ### Problem Statement
 
